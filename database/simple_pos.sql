@@ -1,6 +1,3 @@
-CREATE DATABASE IF NOT EXISTS `simple_pos` CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `simple_pos`;
-
 DROP TABLE IF EXISTS `customers`;
 CREATE TABLE `customers` (
   `id` INT AUTO_INCREMENT PRIMARY KEY,
